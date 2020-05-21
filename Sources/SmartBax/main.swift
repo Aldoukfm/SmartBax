@@ -1,8 +1,7 @@
 import SwiftyGPIO
 
-print("Hello, motherfucker!")
+print("Hello, edited!")
 
 let gpios = SwiftyGPIO.GPIOs(for: .RaspberryPi3)
 
 print(gpios)
-
