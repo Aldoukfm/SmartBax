@@ -44,4 +44,9 @@ final class SmartBaxTests: XCTestCase {
     static var allTests = [
         ("testExample", testExample),
     ]
+    func testADCSPI() {
+      let adc = ADCSPI()
+      let value = adc.readADC(column: 2)
+      print(value) 
+    }
 }

@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "PerfectMosquitto",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Mosquitto",
+        "state": {
+          "branch": null,
+          "revision": "ec54dd39c7bfee93ad1bf3a46ed03418c9f8452e",
+          "version": "3.1.3"
+        }
+      },
+      {
         "package": "SwiftyGPIO",
         "repositoryURL": "https://github.com/uraimo/SwiftyGPIO.git",
         "state": {

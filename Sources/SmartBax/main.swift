@@ -1,7 +1,9 @@
-import SwiftyGPIO
+import Foundation
 
-print("Hello, edited!")
+let smartBax = SmartBax()
 
-let gpios = SwiftyGPIO.GPIOs(for: .RaspberryPi3)
-
-print(gpios)
+do {
+    try smartBax.run()
+} catch {
+    print("Error starting smartbax")
+}
